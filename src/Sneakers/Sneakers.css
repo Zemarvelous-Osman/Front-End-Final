@@ -1,4 +1,4 @@
-#root{
+#root {
     width: 1440px;
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -46,10 +46,12 @@
 
 }
 
-.cart {
+.carticon {
 
-    width: 140px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 .profileicon {
@@ -102,7 +104,7 @@
 
 }
 
-.small-shoe:hover{
+.small-shoe:hover {
     opacity: 15%;
     border: red solid 2px;
 
@@ -114,6 +116,10 @@
     padding: 50px;
 
 
+}
+
+h1{
+    font-weight: 900;
 }
 
 p {
@@ -132,34 +138,29 @@ h3 {
 
 h2 {
     font-family: 'Courier New', Courier, monospace, Times, serif;
+    font-weight: bolder;
+    
 
 }
 
-h1 {
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
 
 span {
     color: hsl(26, 100%, 55%);
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: hsl(25, 100%, 94%);
 }
 
-#original-price {
-    text-decoration: line-through;
-    color: rgb(138, 138, 138);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
 
 #counter {
     font-size: 20px;
     margin-top: -10px;
     padding: 15px;
-    
+
 
 }
 
@@ -172,31 +173,47 @@ span {
     border: rgb(255, 255, 255);
     width: 60px;
     height: 30px;
-    
+
 }
 
 #add-to-cart {
     background-color: hsl(26, 100%, 55%);
-    width: 180px;
+    width: 200px;
     height: 40px;
     border-radius: 10%;
-    color: white;
+    color: #ffffff;
+    font-size: 20px;
     border-color: hsl(26, 100%, 55%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
-    
+    padding-bottom: 40px;
+  
+
+}
+
+#addtocart-cart{
+    width: 50px;
+    height: 20px;
+    border: black 2px sold;
+}
+
+#addtocart-text{
+    height: 25px;
+    width: 170px;
+    text-align: right;
+    margin-bottom: 30px;
 }
 
 
 
 @media screen and (max-width: 375px) {
 
-#root{
-    height: 100%;
-    background-color: rgb(255, 255, 255); 
-}
+    #root {
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
 
-    #container{
+    #container {
         width: 100vw;
         height: 100h;
         background-color: rgb(255, 255, 255);
@@ -220,8 +237,8 @@ span {
         width: 30px;
         height: 30px;
         display: block;
-        
-        
+
+
     }
 
     #logo {
@@ -230,18 +247,18 @@ span {
         height: 30px;
         margin: 5px;
         margin-right: 90px;
-    
+
     }
 
     #nav-bar {
         display: none;
     }
 
-    .profileicon{
+    .profileicon {
         width: 50px;
     }
 
-    #linebreak{
+    #linebreak {
         display: none;
     }
 
@@ -255,7 +272,7 @@ span {
     .image1 {
         width: 100vw;
         height: 300px;
-       margin-top: -80px;
+        margin-top: -80px;
     }
 
     #small-shoe {
@@ -266,69 +283,69 @@ span {
         width: 100vw;
         height: 400px;
         padding: 50px;
-    
-    
+
+
     }
-    
+
     p {
         font-size: 16px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: .03rem;
         line-height: 2rem;
     }
-    
+
     h3 {
         color: hsl(26, 100%, 55%);
         font-size: x-large;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
     }
-    
+
     h2 {
         font-family: 'Courier New', Courier, monospace, Times, serif;
-    
+
     }
-    
+
     h1 {
-    
+
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
     }
-    
+
     span {
         color: hsl(26, 100%, 55%);
         font-size: 15px;
         margin-left: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    
+
     #original-price {
         text-decoration: line-through;
         color: rgb(138, 138, 138);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
     }
-    
+
     #counter {
         font-size: 20px;
         margin-top: -10px;
         padding: 15px;
-        
-    
+
+
     }
-    
+
     #buttons {
         display: flex;
         padding-top: 35PX;
     }
-    
+
     #counter-button {
         border: rgb(255, 255, 255);
         width: 60px;
         height: 30px;
-        
+
     }
-    
+
     #add-to-cart {
         background-color: hsl(26, 100%, 55%);
         width: 180px;
@@ -338,8 +355,8 @@ span {
         border-color: hsl(26, 100%, 55%);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-left: 20px;
-        
+
     }
-    
+
 
 }
